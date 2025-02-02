@@ -74,176 +74,176 @@ INSERT INTO albums (album_title, album_release_year, album_label) VALUES ('Лу�
 INSERT INTO albums (album_title, album_release_year, album_label) VALUES ('Дискотека 80-х', 2016, 'Creative Media'); -- 8
 INSERT INTO albums (album_title, album_release_year, album_label) VALUES ('Disco 80`s Fresh Hits & Remixes', 2015, 'Lastafroz'); -- 9
 INSERT INTO albums (album_title, album_release_year, album_label) VALUES ('Золотые хиты! Авторадио - 30 лет!', 2023, 'Creative Media'); -- 10
-INSERT INTO albums (album_title, album_release_year, album_label) VALUES ('Лучшая дискотека 8 марта!', 2022, 'Creative Media'); -- 11
-INSERT INTO albums (album_title, album_release_year, album_label) VALUES ('Удачные дачные песни', 2021, 'Music RT'); -- 12
+INSERT INTO albums (album_title, album_release_year, album_label) VALUES ('Лучшая дискотека 8 марта!', 2019, 'Creative Media'); -- 11
+INSERT INTO albums (album_title, album_release_year, album_label) VALUES ('Удачные дачные песни', 2020, 'Music RT'); -- 12
 
 -- BARCELONA_TRACKS
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Barcelona', NULL, (5 * 60) + 37); -- 1
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('La Japonaise', NULL, (4 * 60) + 49); -- 2
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('The Fallen Priest', NULL, (5 * 60) + 46); -- 3
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Ensueno', NULL, (4 * 60) + 27); -- 4
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('The Golden Boy', NULL, (6 * 60) + 4); -- 5
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Guide Me Home', NULL, (2 * 60) + 49); -- 6
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('How Can I Go On', NULL, (3 * 60) + 51); -- 7
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Overture Piccante', NULL, (6 * 60) + 40); -- 8
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Barcelona', NULL, (5 * 60) + 37, 1); -- 1
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('La Japonaise', NULL, (4 * 60) + 49, 1); -- 2
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('The Fallen Priest', NULL, (5 * 60) + 46, 1); -- 3
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Ensueno', NULL, (4 * 60) + 27, 1); -- 4
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('The Golden Boy', NULL, (6 * 60) + 4, 1); -- 5
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Guide Me Home', NULL, (2 * 60) + 49, 1); -- 6
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('How Can I Go On', NULL, (3 * 60) + 51, 1); -- 7
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Overture Piccante', NULL, (6 * 60) + 40, 1); -- 8
 
 -- QUEEN. GREATEST HITS II_TRACKS
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('A Kind of Magic', 'Роджер Тейлор', (4 * 60) + 22); -- 9
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Under Pressure', 'Дэвид Боуи', (3 * 60) + 56); -- 10
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Radio Ga Ga', 'Роджер Тейлор', (5 * 60) + 43); -- 11
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('I Want It All', 'Брайан Мэй', (4 * 60) + 1);   -- 12
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('I Want To Break Free', 'Джон Дикон', (4 * 60) + 18); -- 13
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Innuendo', 'Queen', (6 * 60) + 27); -- 14
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('It`s a Hard Life', 'Фредди Меркьюри', (4 * 60) + 09); --15
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Breakthru', 'Меркьюри/Тейлор', (4 * 60) + 9); -- 16
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Who Wants To Live Forever?', 'Брайан Мэй', (4 * 60) + 57); -- 17
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Headlong', 'Брайан Мэй', (4 * 60) + 33); -- 18
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('The Miracle', 'Фредди Меркьюри', (4 * 60) + 54); -- 19
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('I`m Going Slightly Mad', 'Фредди Меркьюри', (4 * 60) + 07); -- 20
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('The Invisible Man', 'Роджер Тейлор', (4 * 60) + 58); -- 21
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Hammer To Fall', 'Брайан Мэй', (3 * 60) + 40); -- 22
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Friends Will Be Friends', 'Меркьюри/Дикон', (4 * 60) + 8); --- 23
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('The Show Must Go On', 'Брайан Мэй', (4 * 60) + 23); -- 24
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('One Vision', 'Queen', (4 * 60) + 2); -- 25
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('A Kind of Magic', 'Роджер Тейлор', (4 * 60) + 22, 2); -- 9
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Under Pressure', 'Дэвид Боуи', (3 * 60) + 56, 2); -- 10
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Radio Ga Ga', 'Роджер Тейлор', (5 * 60) + 43, 2); -- 11
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('I Want It All', 'Брайан Мэй', (4 * 60) + 1, 2);   -- 12
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('I Want To Break Free', 'Джон Дикон', (4 * 60) + 18, 2); -- 13
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Innuendo', 'Queen', (6 * 60) + 27, 2); -- 14
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('It`s a Hard Life', 'Фредди Меркьюри', (4 * 60) + 09, 2); --15
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Breakthru', 'Меркьюри/Тейлор', (4 * 60) + 9, 2); -- 16
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Who Wants To Live Forever?', 'Брайан Мэй', (4 * 60) + 57, 2); -- 17
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Headlong', 'Брайан Мэй', (4 * 60) + 33, 2); -- 18
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('The Miracle', 'Фредди Меркьюри', (4 * 60) + 54, 2); -- 19
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('I`m Going Slightly Mad', 'Фредди Меркьюри', (4 * 60) + 7, 2); -- 20
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('The Invisible Man', 'Роджер Тейлор', (4 * 60) + 58, 2); -- 21
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Hammer To Fall', 'Брайан Мэй', (3 * 60) + 40, 2); -- 22
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Friends Will Be Friends', 'Меркьюри/Дикон', (4 * 60) + 8, 2); --- 23
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('The Show Must Go On', 'Брайан Мэй', (4 * 60) + 23, 2); -- 24
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('One Vision', 'Queen', (4 * 60) + 2, 2); -- 25
 
 -- ROMANTIC CABALIE
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('La bohème: Act I: Oh! sventata, sventata!', 'Джакомо Пуччини', (1 * 60) + 36); -- 26
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Tosca: Vissi d`arte', 'Джакомо Пуччини', (3 * 60) + 25); -- 27
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Tonadillas: Amor y Odio', 'Энрике Гранадос', (2 * 60) + 9); -- 28
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Norma: Casta diva', 'Винченцо Беллини', (10 * 60) + 15); -- 29
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Air', 'Иоганн Себастиан Бах', (3 * 60) + 30); -- 30
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('O mio babbiono caro', 'Джакомо Пуччини', (2 * 60) + 34); -- 31
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('La Bohème: Act I: Ehi! Rodolfo!', 'Джакомо Пуччини', (0 * 60) + 37); -- 32
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Adriena Lecouvreur: Io son l`umile ancella', 'Франческо Чилеа', (4 * 60)); -- 33
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Luisa Fernanda: Caballero', 'Федерико Морено Тороба', (4 * 60) + 42); -- 34
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Hijo de la luna', 'Хосе Мария Кано', (5 * 60) + 20); -- 35
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Rigoletto: Gualtier malde...', 'Джузеппе Верди', (6 * 60) + 21); -- 36
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Les Contes d`Hoffman: Act II: Barcarolle: Belle nuit Shirley Verrett', 'Жак Оффенбах', (3 * 60) + 54); -- 37
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Ave Maria', 'Franz Schubert', (3 * 60) + 34); -- 38
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Wiegenlied Op. 41 № 1 (Cancion De Cuna)', 'Иоганнес Брамс', (5 * 60) + 10); -- 39
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('The Last Rose of Summer', 'Джон Стивенсон', (4 * 60) + 17); -- 40
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('La bohème: Act I: Oh! sventata, sventata!', 'Джакомо Пуччини', (1 * 60) + 36, 3); -- 26
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Tosca: Vissi d`arte', 'Джакомо Пуччини', (3 * 60) + 25, 3); -- 27
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Tonadillas: Amor y Odio', 'Энрике Гранадос', (2 * 60) + 9, 3); -- 28
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Norma: Casta diva', 'Винченцо Беллини', (10 * 60) + 15, 3); -- 29
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Air', 'Иоганн Себастиан Бах', (3 * 60) + 30, 3); -- 30
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('O mio babbiono caro', 'Джакомо Пуччини', (2 * 60) + 34, 3); -- 31
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('La Bohème: Act I: Ehi! Rodolfo!', 'Джакомо Пуччини', (0 * 60) + 37, 3); -- 32
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Adriena Lecouvreur: Io son l`umile ancella', 'Франческо Чилеа', (4 * 60), 3); -- 33
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Luisa Fernanda: Caballero', 'Федерико Морено Тороба', (4 * 60) + 42, 3); -- 34
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Hijo de la luna', 'Хосе Мария Кано', (5 * 60) + 20, 3); -- 35
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Rigoletto: Gualtier malde...', 'Джузеппе Верди', (6 * 60) + 21, 3); -- 36
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Les Contes d`Hoffman: Act II: Barcarolle: Belle nuit Shirley Verrett', 'Жак Оффенбах', (3 * 60) + 54, 3); -- 37
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Ave Maria', 'Franz Schubert', (3 * 60) + 34, 3); -- 38
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Wiegenlied Op. 41 № 1 (Cancion De Cuna)', 'Иоганнес Брамс', (5 * 60) + 10, 3); -- 39
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('The Last Rose of Summer', 'Джон Стивенсон', (4 * 60) + 17, 3); -- 40
 
 -- MOZART. REQUIEM_TRACKS
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Introitus: Requiem aeternam', 'Mozart', (5 * 60) + 29); -- 41
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Kyrie eleison', 'Mozart', (3 * 60) + 2); -- 42
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Dies irae', 'Mozart', (1 * 60) + 57); -- 43
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Tuba mirum', 'Mozart', (4 * 60) + 38); -- 44
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Rex tremendae majestatis', 'Mozart', (2 * 60) + 35); -- 45
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Recordare, Jesu pie', 'Mozart', (7 * 60) + 36); -- 46
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Confutatis maledictis', 'Mozart', (3 * 60) + 23); -- 47
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Lacrimosa dies illa', 'Mozart', (3 * 60) + 46); -- 48
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Domine Jesu Christe', 'Mozart', (5 * 60) + 41); -- 49
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Versus: Hostias et preces', 'Mozart', (5 * 60) + 50); -- 50
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Sanctus Dominus Deus Sabaoth', 'Mozart', (1 * 60) + 41); -- 51
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Benedictus', 'Mozart', (5 * 60) + 37); -- 52
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Agnus Dei', 'Mozart', (4 * 60)); -- 53
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Lux aeterna', 'Mozart', (5 * 60) + 52); -- 54
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Introitus: Requiem aeternam', 'Mozart', (5 * 60) + 29, 4); -- 41
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Kyrie eleison', 'Mozart', (3 * 60) + 2, 4); -- 42
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Dies irae', 'Mozart', (1 * 60) + 57, 4); -- 43
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Tuba mirum', 'Mozart', (4 * 60) + 38, 4); -- 44
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Rex tremendae majestatis', 'Mozart', (2 * 60) + 35, 4); -- 45
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Recordare, Jesu pie', 'Mozart', (7 * 60) + 36, 4); -- 46
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Confutatis maledictis', 'Mozart', (3 * 60) + 23, 4); -- 47
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Lacrimosa dies illa', 'Mozart', (3 * 60) + 46, 4); -- 48
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Domine Jesu Christe', 'Mozart', (5 * 60) + 41, 4); -- 49
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Versus: Hostias et preces', 'Mozart', (5 * 60) + 50, 4); -- 50
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Sanctus Dominus Deus Sabaoth', 'Mozart', (1 * 60) + 41, 4); -- 51
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Benedictus', 'Mozart', (5 * 60) + 37, 4); -- 52
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Agnus Dei', 'Mozart', (4 * 60), 4); -- 53
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Lux aeterna', 'Mozart', (5 * 60) + 52, 4); -- 54
 
 -- Bach_Brandenburg Concertos
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Concerto No. 1 "Concerto primo", in F Major, BWV 1046, IJB 43: I. Allegro', 'Johann Sebastian Bach', (3 * 60) + 57); -- 55
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Concerto No. 1 "Concerto primo", in F Major, BWV 1046, IJB 43: II. Adagio', 'Johann Sebastian Bach', (4 * 60) + 33); -- 56
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Concerto No. 1 "Concerto primo", in F Major, BWV 1046, IJB 43: III. Allegro', 'Johann Sebastian Bach', (4 * 60) + 22); -- 57
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Concerto No. 1 "Concerto primo", in F Major, BWV 1046, IJB 43: IV. Minuetto - Polonaise - Minuetto', 'Johann Sebastian Bach', (8 * 60) + 41); -- 58
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Concerto No. 3 in G Major, BWV 1048, IJB 45: I. Allegro-Adagio', 'Johann Sebastian Bach', (6 * 60) + 33); -- 59
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Concerto No. 3 in G Major, BWV 1048, IJB 45: II. Allegro', 'Johann Sebastian Bach', (5 * 60) + 57); -- 60
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Concerto No. 5 in D Major, BWV 1050, IJB 47: I. Allegro', 'Johann Sebastian Bach', (10 * 60) + 53); -- 61
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Concerto No. 5 in D Major, BWV 1050, IJB 47: II. Affettuoso', 'Johann Sebastian Bach', (5 * 60) + 55); -- 62
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Concerto No. 5 in D Major, BWV 1050, IJB 47: III. Allegro', 'Johann Sebastian Bach', (5 * 60) + 39); -- 63
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Concerto No. 4 in G Major, BWV 1049, IJB 46: I. Allegro', 'Johann Sebastian Bach', (7 * 60) + 42); -- 64
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Concerto No. 4 in G Major, BWV 1049, IJB 46: II. Andante', 'Johann Sebastian Bach', (7 * 60) + 42); -- 65
-INSERT INTO tracks (track_name, track_composer, track_duration) VALUES ('Concerto No. 4 in G Major, BWV 1049, IJB 46: III. Presto', 'Johann Sebastian Bach', (7 * 60) + 42); -- 66
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Concerto No. 1 "Concerto primo", in F Major, BWV 1046, IJB 43: I. Allegro', 'Johann Sebastian Bach', (3 * 60) + 57, 5); -- 55
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Concerto No. 1 "Concerto primo", in F Major, BWV 1046, IJB 43: II. Adagio', 'Johann Sebastian Bach', (4 * 60) + 33, 5); -- 56
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Concerto No. 1 "Concerto primo", in F Major, BWV 1046, IJB 43: III. Allegro', 'Johann Sebastian Bach', (4 * 60) + 22, 5); -- 57
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Concerto No. 1 "Concerto primo", in F Major, BWV 1046, IJB 43: IV. Minuetto - Polonaise - Minuetto', 'Johann Sebastian Bach', (8 * 60) + 41, 5); -- 58
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Concerto No. 3 in G Major, BWV 1048, IJB 45: I. Allegro-Adagio', 'Johann Sebastian Bach', (6 * 60) + 33, 5); -- 59
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Concerto No. 3 in G Major, BWV 1048, IJB 45: II. Allegro', 'Johann Sebastian Bach', (5 * 60) + 57, 5); -- 60
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Concerto No. 5 in D Major, BWV 1050, IJB 47: I. Allegro', 'Johann Sebastian Bach', (10 * 60) + 53, 5); -- 61
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Concerto No. 5 in D Major, BWV 1050, IJB 47: II. Affettuoso', 'Johann Sebastian Bach', (5 * 60) + 55, 5); -- 62
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Concerto No. 5 in D Major, BWV 1050, IJB 47: III. Allegro', 'Johann Sebastian Bach', (5 * 60) + 39, 5); -- 63
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Concerto No. 4 in G Major, BWV 1049, IJB 46: I. Allegro', 'Johann Sebastian Bach', (7 * 60) + 42, 5); -- 64
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Concerto No. 4 in G Major, BWV 1049, IJB 46: II. Andante', 'Johann Sebastian Bach', (7 * 60) + 42, 5); -- 65
+INSERT INTO tracks (track_name, track_composer, track_duration, track_album_id) VALUES ('Concerto No. 4 in G Major, BWV 1049, IJB 46: III. Presto', 'Johann Sebastian Bach', (7 * 60) + 42, 5); -- 66
 
 -- Надежда Бабкина
-INSERT INTO tracks (track_name, track_duration) VALUES ('Как за Доном, за рекой', (1 * 60) + 50); --67
-INSERT INTO tracks (track_name, track_duration) VALUES ('Калинка', (3 * 60) + 24); -- 68
-INSERT INTO tracks (track_name, track_duration) VALUES ('Четыре двора - из сериала "Сваты"', (4 * 60) + 42); -- 69
-INSERT INTO tracks (track_name, track_duration) VALUES ('Во поле берёза', (3 * 60) + 34); -- 70
-INSERT INTO tracks (track_name, track_duration) VALUES ('Верила, верила, верю', (4 * 60) + 3); -- 71
-INSERT INTO tracks (track_name, track_duration) VALUES ('Виновата ли я', (1 * 60) + 54); -- 72
-INSERT INTO tracks (track_name, track_duration) VALUES ('Надя', (3 * 60) + 55); -- 73
-INSERT INTO tracks (track_name, track_duration) VALUES ('Сизый голубочек', (3 * 60) + 50); -- 74
-INSERT INTO tracks (track_name, track_duration) VALUES ('Семый', (4 * 60) + 5); -- 75
-INSERT INTO tracks (track_name, track_duration) VALUES ('На горе колхоз', (2 * 60) + 42); -- 76
-INSERT INTO tracks (track_name, track_duration) VALUES ('Розы', (5 * 60) + 5); -- 77
-INSERT INTO tracks (track_name, track_duration) VALUES ('Москва златоглавая', (3 * 60) + 2); -- 78 - была ОШИБКА 79
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Как за Доном, за рекой', (1 * 60) + 50, 6); --67
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Калинка', (3 * 60) + 24, 6); -- 68
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Четыре двора - из сериала "Сваты"', (4 * 60) + 42, 6); -- 69
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Во поле берёза', (3 * 60) + 34, 6); -- 70
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Верила, верила, верю', (4 * 60) + 3, 6); -- 71
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Виновата ли я', (1 * 60) + 54, 6); -- 72
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Надя', (3 * 60) + 55, 6); -- 73
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Сизый голубочек', (3 * 60) + 50, 6); -- 74
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Семый', (4 * 60) + 5, 6); -- 75
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('На горе колхоз', (2 * 60) + 42, 6); -- 76
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Розы', (5 * 60) + 5, 6); -- 77
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Москва златоглавая', (3 * 60) + 2, 6); -- 78 - была ОШИБКА 79
 
 -- Бурановские бабушки
-INSERT INTO tracks (track_name, track_duration) VALUES ('Туннэ', (2 * 60) + 47); -- 79
-INSERT INTO tracks (track_name, track_duration) VALUES ('Добро', (3 * 60) + 47); -- 80
-INSERT INTO tracks (track_name, track_duration) VALUES ('Валенки', (2 * 60) + 47); -- 81
-INSERT INTO tracks (track_name, track_duration) VALUES ('Салют', (2 * 60) + 4); -- 82
-INSERT INTO tracks (track_name, track_duration) VALUES ('Лудорвай', (6 * 60) + 26); -- 83
-INSERT INTO tracks (track_name, track_duration) VALUES ('Взлётная полоса', (3 * 60) + 57); -- 84
-INSERT INTO tracks (track_name, track_duration) VALUES ('Живёт любовь', (3 * 60) + 19); -- 85
-INSERT INTO tracks (track_name, track_duration) VALUES ('Частушки', (3 * 60) + 12); -- 86
-INSERT INTO tracks (track_name, track_duration) VALUES ('Ranway', (3 * 60) + 30); -- 87
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Туннэ', (2 * 60) + 47, 7); -- 79
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Добро', (3 * 60) + 47, 7); -- 80
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Валенки', (2 * 60) + 47, 7); -- 81
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Салют', (2 * 60) + 4, 7); -- 82
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Лудорвай', (6 * 60) + 26, 7); -- 83
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Взлётная полоса', (3 * 60) + 57, 7); -- 84
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Живёт любовь', (3 * 60) + 19, 7); -- 85
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Частушки', (3 * 60) + 12, 7); -- 86
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Ranway', (3 * 60) + 30, 7); -- 87
 
 -- ДИСКОТЕКА 80-х
-INSERT INTO tracks (track_name, track_duration) VALUES ('Кони в яблоках', (3 * 60) + 29); -- 88
-INSERT INTO tracks (track_name, track_duration) VALUES ('На теплоходе музыка играет', (3 * 60) + 35); -- 89
-INSERT INTO tracks (track_name, track_duration) VALUES ('Розовые розы', (4 * 60) + 43); -- 90
-INSERT INTO tracks (track_name, track_duration) VALUES ('Из Вагантов', (3 * 60)); -- 91
-INSERT INTO tracks (track_name, track_duration) VALUES ('Наш сосед', (2 * 60) + 33); -- 92
-INSERT INTO tracks (track_name, track_duration) VALUES ('Жёлтые розы', (3 * 60) + 51); -- 93
-INSERT INTO tracks (track_name, track_duration) VALUES ('Давай попробуем вернуть', (3 * 60) + 40); -- 94
-INSERT INTO tracks (track_name, track_duration) VALUES ('Сердце моё сердце', (2 * 60) + 41); -- 95
-INSERT INTO tracks (track_name, track_duration) VALUES ('Кто тебе сказал?', (2 * 60) + 24); -- 96
-INSERT INTO tracks (track_name, track_duration) VALUES ('Мой день', (3 * 60) + 33); -- 97
-INSERT INTO tracks (track_name, track_duration) VALUES ('Ночное рандеву', (4 * 60) + 32); -- 98
-INSERT INTO tracks (track_name, track_duration) VALUES ('Ты замуж за него не выходи', (3 * 60) + 22); -- 99
-INSERT INTO tracks (track_name, track_duration) VALUES ('Зима любви', (2 * 60) + 42); -- 100
-INSERT INTO tracks (track_name, track_duration) VALUES ('Рита-Маргарита', (3 * 60) + 32); -- 101
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Кони в яблоках', (3 * 60) + 29, 8); -- 88
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('На теплоходе музыка играет', (3 * 60) + 35, 8); -- 89
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Розовые розы', (4 * 60) + 43, 8); -- 90
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Из Вагантов', (3 * 60), 8); -- 91
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Наш сосед', (2 * 60) + 33, 8); -- 92
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Жёлтые розы', (3 * 60) + 51, 8); -- 93
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Давай попробуем вернуть', (3 * 60) + 40, 8); -- 94
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Сердце моё сердце', (2 * 60) + 41, 8); -- 95
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Кто тебе сказал?', (2 * 60) + 24, 8); -- 96
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Мой день', (3 * 60) + 33, 8); -- 97
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Ночное рандеву', (4 * 60) + 32, 8); -- 98
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Ты замуж за него не выходи', (3 * 60) + 22, 8); -- 99
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Зима любви', (2 * 60) + 42, 8); -- 100
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Рита-Маргарита', (3 * 60) + 32, 8); -- 101
 
 -- DISCO 80`s
-INSERT INTO tracks (track_name, track_duration) VALUES ('Right By The Moon', (3 * 60) + 23); -- 102
-INSERT INTO tracks (track_name, track_duration) VALUES ('Heart To Heart', (3 * 60) + 58); -- 103
-INSERT INTO tracks (track_name, track_duration) VALUES ('Count On Me', (4 * 60) + 41); -- 104
-INSERT INTO tracks (track_name, track_duration) VALUES ('Touch In The Night', (5 * 60) + 9); -- 105
-INSERT INTO tracks (track_name, track_duration) VALUES ('Touch By Touch', (3 * 60) + 47); -- 106
-INSERT INTO tracks (track_name, track_duration) VALUES ('Hey Hey Guy', (8 * 60) + 1); -- 107
-INSERT INTO tracks (track_name, track_duration) VALUES ('Oceans Of Crime', (3 * 60) + 39); -- 108
-INSERT INTO tracks (track_name, track_duration) VALUES ('Fotonovela', (6 * 60) + 15); -- 109
-INSERT INTO tracks (track_name, track_duration) VALUES ('Baby Goodbye', (6 * 60) + 45); -- 110
-INSERT INTO tracks (track_name, track_duration) VALUES ('Every Day Every Night', (7 * 60) + 40); -- 111
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Right By The Moon', (3 * 60) + 23, 9); -- 102
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Heart To Heart', (3 * 60) + 58, 9); -- 103
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Count On Me', (4 * 60) + 41, 9); -- 104
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Touch In The Night', (5 * 60) + 9, 9); -- 105
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Touch By Touch', (3 * 60) + 47, 9); -- 106
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Hey Hey Guy', (8 * 60) + 1, 9); -- 107
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Oceans Of Crime', (3 * 60) + 39, 9); -- 108
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Fotonovela', (6 * 60) + 15, 9); -- 109
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Baby Goodbye', (6 * 60) + 45, 9); -- 110
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Every Day Every Night', (7 * 60) + 40, 9); -- 111
 
 -- АВТОРАДИО - 30 ЛЕТ
-INSERT INTO tracks (track_name, track_duration) VALUES ('Лунные ночи', (3 * 60) + 36); -- 112
-INSERT INTO tracks (track_name, track_duration) VALUES ('Так хочется жить', (4 * 60) + 7); -- 113
-INSERT INTO tracks (track_name, track_duration) VALUES ('Я - это ты', (4 * 60) + 1); -- 114
-INSERT INTO tracks (track_name, track_duration) VALUES ('Чистые пруды', (6 * 60) + 4); -- 115
-INSERT INTO tracks (track_name, track_duration) VALUES ('Вместе навсегда', (3 * 60) + 24); -- 116
-INSERT INTO tracks (track_name, track_duration) VALUES ('Звезда', (3 * 60) + 35); -- 117
-INSERT INTO tracks (track_name, track_duration) VALUES ('Лётчик', (3 * 60) + 50); -- 118
-INSERT INTO tracks (track_name, track_duration) VALUES ('Молодость', (4 * 60) + 55); -- 119
-INSERT INTO tracks (track_name, track_duration) VALUES ('Мальчик хочет в Тамбов', (3 * 60) + 35); -- 120
-INSERT INTO tracks (track_name, track_duration) VALUES ('Разлучница', (3 * 60) + 24); -- 121
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Лунные ночи', (3 * 60) + 36, 10); -- 112
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Так хочется жить', (4 * 60) + 7, 10); -- 113
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Я - это ты', (4 * 60) + 1, 10); -- 114
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Чистые пруды', (6 * 60) + 4, 10); -- 115
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Вместе навсегда', (3 * 60) + 24, 10); -- 116
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Звезда', (3 * 60) + 35, 10); -- 117
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Лётчик', (3 * 60) + 50, 10); -- 118
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Молодость', (4 * 60) + 55, 10); -- 119
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Мальчик хочет в Тамбов', (3 * 60) + 35, 10); -- 120
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Разлучница', (3 * 60) + 24, 10); -- 121
 
 -- ДИСКОТЕКА 8 МАРТА
 -- Розовые розы, Кони в яблоках, Мальчик хочет в Тамбов
-INSERT INTO tracks (track_name, track_duration) VALUES ('Грош цена тебе', (3 * 60) + 26); -- 122
-INSERT INTO tracks (track_name, track_duration) VALUES ('Ты не ангел', (3 * 60) + 21); -- 123
-INSERT INTO tracks (track_name, track_duration) VALUES ('Зной', (3 * 60) + 23); -- 124
-INSERT INTO tracks (track_name, track_duration) VALUES ('Малиновая ночь', (3 * 60) + 16); -- 125
-INSERT INTO tracks (track_name, track_duration) VALUES ('Диско-ночь', (2 * 60) + 57); -- 126
-INSERT INTO tracks (track_name, track_duration) VALUES ('Тополя', (3 * 60) + 28); -- 127
-INSERT INTO tracks (track_name, track_duration) VALUES ('Южная ночь', (3 * 60) + 14); -- 128
-INSERT INTO tracks (track_name, track_duration) VALUES ('Ты у меня одна такая', (4 * 60) + 11); -- 129
-INSERT INTO tracks (track_name, track_duration) VALUES ('La-Rum', (4 * 60) + 9); -- 130
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Грош цена тебе', (3 * 60) + 26, 11); -- 122
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Ты не ангел', (3 * 60) + 21, 11); -- 123
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Зной', (3 * 60) + 23, 11); -- 124
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Малиновая ночь', (3 * 60) + 16, 11); -- 125
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Диско-ночь', (2 * 60) + 57, 11); -- 126
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Тополя', (3 * 60) + 28, 11); -- 127
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Южная ночь', (3 * 60) + 14, 11); -- 128
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Ты у меня одна такая', (4 * 60) + 11, 11); -- 129
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('La-Rum', (4 * 60) + 9, 11); -- 130
 -- INSERT INTO tracks (track_name, track_duration) VALUES ();
 -- INSERT INTO tracks (track_name, track_duration) VALUES ();
 -- INSERT INTO tracks (track_name, track_duration) VALUES ();
 
 -- ДАЧНЫЕ ПЕСНИ
 -- Розовые розы, Ты не ангел, Кони в яблоках, Я это ты, Грош цена тебе, Ты у меня одна такая
-INSERT INTO tracks (track_name, track_duration) VALUES ('Опера №2', (3 * 60) + 15); -- 1311
-INSERT INTO tracks (track_name, track_duration) VALUES ('Шёлковое сердце', (4 * 60) + 31); -- 132
-INSERT INTO tracks (track_name, track_duration) VALUES ('Две станции метро', (4 * 60) + 48); -- 133
-INSERT INTO tracks (track_name, track_duration) VALUES ('Желаю вам', (4 * 60)); -- 134
-INSERT INTO tracks (track_name, track_duration) VALUES ('Она и он', (3 * 60) + 46); -- 135
-INSERT INTO tracks (track_name, track_duration) VALUES ('Я люблю тебя, Иван!', (1 * 60) + 54); -- 136
-INSERT INTO tracks (track_name, track_duration) VALUES ('Усталое такси', (4 * 60) + 5); -- 137
-INSERT INTO tracks (track_name, track_duration) VALUES ('Маменька', (4 * 60) + 45); -- 138
-INSERT INTO tracks (track_name, track_duration) VALUES ('Плот', (5 * 60) + 9); -- 139
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Опера №2', (3 * 60) + 15, 12); -- 1311
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Шёлковое сердце', (4 * 60) + 31, 12); -- 132
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Две станции метро', (4 * 60) + 48, 12); -- 133
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Желаю вам', (4 * 60), 12); -- 134
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Она и он', (3 * 60) + 46, 12); -- 135
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Я люблю тебя, Иван!', (1 * 60) + 54, 12); -- 136
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Усталое такси', (4 * 60) + 5, 12); -- 137
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Маменька', (4 * 60) + 45, 12); -- 138
+INSERT INTO tracks (track_name, track_duration, track_album_id) VALUES ('Плот', (5 * 60) + 9, 12); -- 139
 -- INSERT INTO tracks (track_name, track_duration) VALUES ();
 -- INSERT INTO tracks (track_name, track_duration) VALUES ();
 -- INSERT INTO tracks (track_name, track_duration) VALUES ();

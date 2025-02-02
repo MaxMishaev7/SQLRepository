@@ -2,8 +2,8 @@ DROP TABLE IF EXISTS genres_tracks;
 DROP TABLE IF EXISTS genres_albums;
 DROP TABLE IF EXISTS genres_artists;
 DROP TABLE IF EXISTS artists_albums;
-DROP TABLE IF EXISTS albums;
 DROP TABLE IF EXISTS tracks;
+DROP TABLE IF EXISTS albums;
 DROP TABLE IF EXISTS artists;
 DROP TABLE IF EXISTS genres;
 
@@ -30,7 +30,8 @@ CREATE TABLE IF NOT EXISTS tracks (
 track_id serial PRIMARY KEY,
 track_name varchar(120) NOT NULL,
 track_composer varchar(80) NULL,
-track_duration integer NULL 
+track_duration integer NULL, 
+track_album_id integer NULL REFERENCES albums(album_id) -- вставлено новое поле
 );
 
 CREATE TABLE IF NOT EXISTS genres_artists (
